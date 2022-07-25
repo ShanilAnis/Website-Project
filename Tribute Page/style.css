@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  border: 5px solid navy;
+  background-color: rgba(67, 87, 137, 0.288);
+  font-family: 'Heebo', sans-serif;
+}
+
+.content {
+  margin: 5% 5% 5% 5%;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+img {
+  width: 400px;
+  max-width: 400px;
+  height: auto;
+  border: 5px double rgb(244, 238, 238);
+  border-radius: 50%;
+}
+
+figcaption {
+  font-size: 3rem;
+  padding-bottom: 5px;
+}
+
+.date {
+  white-space: nowrap;
+  font-size: 2rem;
+  text-align: end;
+}
+
+.detail {
+  margin-top: 150px;
+}
+
+.detail h1 {
+  font-size: 6rem;
+  border-bottom: 3px dotted navy;
+  border-width: 50%;
+}
+
+.paragraph{
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+.last-content{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+ul{
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+footer{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    text-align: end;
+}
