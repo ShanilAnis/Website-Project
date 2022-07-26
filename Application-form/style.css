@@ -6,9 +6,5 @@
 
 .container{
     min-height: 100vh;
-    background-image: linear-gradient(whitesmoke, silver);
-}
-
-.content{
-    
+    background-image: linear-gradient(navy, silver);
 }
