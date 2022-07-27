@@ -9,6 +9,7 @@ body {
   font-size: 15px;
   line-height: 1.5;
   background-color: lightgray;
+  min-height: 100vh;
 }
 
 /* Global */
@@ -109,4 +110,27 @@ a:hover {
     padding: 4px;
     height: 35px;
     width: 200px;
+}
+
+
+#boxes .container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.box{
+    border: 2px dotted gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #e8491d;
+    text-align: center;
 }
