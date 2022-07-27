@@ -18,6 +18,15 @@ body {
   overflow: hidden;
 }
 
+.button_1{
+    height: 35px;
+    background: #e8491d;
+    border: 0px;
+    padding-left: 15px;
+    padding-right: 20px;
+    color: white;
+}
+
 /* header */
 header {
   background: #35424a;
@@ -54,8 +63,7 @@ span {
   color: red;
 }
 
-a:active,
-a:target,
+.selected,
 a:hover {
   font-weight: bold;
   color: orangered;
@@ -63,5 +71,42 @@ a:hover {
 
 #showcase {
   min-height: 400px;
-  background-image: url(./img/computer\ with\ hand.jpg);
+  background-image: url(./img/computer\ with\ hand.jpg) ;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    color: wheat;
+    font-size: 20px;
+}
+
+#newsletter{
+    padding: 15px;
+    color: #fff;
+    background-color: #35424a;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    margin-top: 5px;
+    float: right;
+}
+
+#newsletter input[type='email']{
+    padding: 4px;
+    height: 35px;
+    width: 200px;
 }
