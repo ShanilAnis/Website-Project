@@ -10,19 +10,17 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
 }
-.container{
-    min-width: 21rem;
-}
+/* .container{
+    /* min-width: 100%; */
+
 
 .box{
-    min-width: 20rem;
-    width: 90vw;
-    overflow:auto;
+    width: 80vw;
+    /* overflow:auto; */
     min-height: 90vh;
     padding: 2rem;
     background-color:white;
-    margin: 0 auto;
-    margin-top: 40px;
+    margin: 2rem auto;
     border-radius: 3%;
 }
 
@@ -38,11 +36,21 @@ span{
 .fields{
     margin-top: 1em;
     display: flex;
-    flex-flow: column wrap;
-    width: 100%;
+    flex-flow: column;
+    width: 68vw;
+    font-weight: 500;
 }
 
-:is(.fields input, .fields select){
+:where(.fields input, .fields select, .fields textarea){
     font-size: 1.5rem;
+    margin-top: 0.5rem;
     color: darkgray;
+}
+
+textarea{
+    font-size: 3rem;
+}
+
+.cv input{
+    border : 2px solid black;
 }
