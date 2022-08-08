@@ -7,60 +7,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Application Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 
 <body>
     <div class="container">
         <div class="box">
-            <header class="content">
-                <h1>Job Application <span>(Web)</span></h1>
-            </header>
+            <div class="box-content">
+                <header class="content">
+                    <h1>Job Application <span>(Web)</span></h1>
+                </header>
 
-            <main>
-                <form action="#">
-                    <div class="fields">
-                        <label for="fname">First Name</label>
-                        <input id="fname" type="text" name="fname">
-                    </div>
-                    <div class="fields">
-                        <label for="lname">Last Name</label>
-                        <input id="lname" type="text" name="lname">
-                    </div>
-                    <div class="fields">
-                        <label for="email">Email</label>
-                        <input id="email" type="text" name="email">
-                    </div>
-                    <div class="fields">
-                        <label for="jrole">Job Role</label>
-                        <select id="jrole" type="text" name="lname">
-                            <option value="security">Security Guard</option>
-                            <option value="watchman">Watch Man</option>
-                            <option value="office">Office Boy</option>
-                        </select>
-                    </div>
-                    <div class="fields">
-                        <label for="address">Address</label>
-                        <textarea id="address" type="text" name="address">
+                <main class="form-fields">
+                    <form action="#">
+                        <div class="same">
+                            <div class="fields">
+                                <label for="fname">First Name</label>
+                                <input id="fname" type="text" name="fname">
+                            </div>
+                            <div class="fields">
+                                <label for="lname">Last Name</label>
+                                <input id="lname" type="text" name="lname">
+                            </div>
+                        </div>
+                        <div class="same">
+                            <div class="fields">
+                                <label for="email">Email</label>
+                                <input id="email" type="text" name="email">
+                            </div>
+                            <div class="fields">
+                                <label for="jrole">Job Role</label>
+                                <select id="jrole" type="text" name="lname">
+                                    <option value="security">Security Guard</option>
+                                    <option value="watchman">Watch Man</option>
+                                    <option value="office">Office Boy</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="fields full">
+                            <label for="address">Address</label>
+                            <textarea id="address" type="text" name="address">
                         </textarea>
-                    </div>
-                    <div class="fields">
-                        <label for="city">City</label>
-                        <input id="city" type="text" name="city">
-                    </div>
-                    <div class="fields">
-                        <label for="pincode">Pincode</label>
-                        <input id="pincode" type="text" name="pincode">
-                    </div>
-                    <div class="fields">
-                        <label for="date">Start Date</label>
-                        <input id="date" type="date" name="date">
-                    </div>
-                    <div class="fields cv">
-                        <label for="cv">Upload Your CV</label>
-                        <input id="cv" type="file" name="cv">
-                    </div>
-                </form>
-            </main>
+                        </div>
+                        <div class="same">
+                            <div class="fields">
+                                <label for="city">City</label>
+                                <input id="city" type="text" name="city">
+                            </div>
+                            <div class="fields">
+                                <label for="pincode">Pincode</label>
+                                <input id="pincode" type="text" name="pincode">
+                            </div>
+                        </div>
+                        <div class="same">
+                            <div class="fields">
+                                <label for="date">Start Date</label>
+                                <input id="date" type="date" name="date">
+                            </div>
+                            <div class="fields cv">
+                                <label for="cv">Upload Your CV</label>
+                                <input id="cv" type="file" name="cv">
+                            </div>
+                        </div>
+                        <div class="button ">
+                            <button type="submit">Apply Now</button>
+                        </div>
+                    </form>
+                </main>
+            </div>
         </div>
 </body>
 

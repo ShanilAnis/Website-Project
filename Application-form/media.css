@@ -1,0 +1,42 @@
+@media (min-height : 810px) {
+    body{
+        font-size: 2rem;
+        max-width: 1920px;
+    }
+
+    h1{
+        font-size: 3rem;
+        border-bottom: 2px solid darkolivegreen;
+    }
+    span{
+        font-size: 2rem;
+    }
+
+    .fields {
+        margin-top: 2rem;
+        max-width: 910px;
+    }
+
+    .full{
+        width: 100%;
+        max-width: 1820px ;
+    }
+
+    .fields input,
+    .fields select{
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+
+    .same{
+        display: flex;
+        gap: 2rem;
+    }
+
+    .button{
+        width: 100%;
+        margin-top: 1rem;
+        margin-right: 4rem;
+    }
+}
