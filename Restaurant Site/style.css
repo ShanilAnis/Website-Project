@@ -1,9 +1,86 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    margin:auto 2rem;
+/* utility classes */
+.nowrap{
+    white-space: nowrap;
 }
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+    margin: auto 2rem;
+    max-width: 100vh;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.navBar{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.logoContainer img{
+    max-width: 76px;
+    width: 2rem;
+}
+
+.logo {
+  font-family: 'Russo One', sans-serif;
+  font-size: 1em;
+  color: green;
+  /* max-width: 126px; */
+}
+
+
+.menu img{
+    max-width: 24px;
+}
+
+.heroSection{
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.heroImage img{
+    max-width: 400px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.heroContent{
+    margin-top: 1rem;
+}
+
+.discount{
+    display: inline-block;
+    padding: 0.4rem 1rem ;
+    background-color: green;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.heroParagraph{
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+}
+
+
+
