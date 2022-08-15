@@ -6,15 +6,13 @@
 }
 
 /* utility classes */
-.nowrap{
-    white-space: nowrap;
+.nowrap {
+  white-space: nowrap;
 }
 
-
-
 .container {
-    margin: auto 2rem;
-    min-height: 100vh;
+  margin: auto 2rem;
+  min-height: 100vh;
 }
 
 .logoContainer {
@@ -23,110 +21,184 @@
   align-items: end;
 }
 
-.navBar{
-    width: 95%;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+.navBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
-
-.logoContainer img{
-    max-width: 76px;
-    width: 2rem;
+.logoContainer img {
+  max-width: 76px;
+  width: 2rem;
 }
 
 .logo {
-  font-family: 'Russo One', sans-serif;
+  font-family: "Russo One", sans-serif;
   font-size: 1em;
   color: green;
   /* max-width: 126px; */
 }
 
-
-.menu img{
-    max-width: 24px;
+.right-nav {
+  max-width: 24px;
 }
 
-.heroSection{
-    margin: 2rem auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    border-bottom: 2px solid rgba(128, 128, 128, 0.236);
+.heroSection {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
-.heroImage img{
-    max-width: 400px;
-    width: 100%;
-    border-radius: 50%;
+.heroImage img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 50%;
 }
 
-.heroContent{
-    margin-top: 1rem;
+.heroContent {
+  margin-top: 1rem;
 }
 
-.discount{
-    display: inline-block;
-    padding: 0.4rem 1rem ;
-    background-color: green;
-    color: #fff;
-    margin-bottom: 2rem;
+.discount {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background-color: green;
+  color: #fff;
+  margin-bottom: 2rem;
 }
 
-.heroParagraph{
-    margin-top: 0.3rem;
-    font-size: 0.8rem;
+.heroParagraph {
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
 }
 
-.explore{
-    background-color: #FFC066;
-    color: #fff;
-    font-size: 1.1rem;
-    font-weight: 700;
-    margin: 0.5rem 0 ;
-    padding: 0.7rem;
-    width: 10rem;
+.explore {
+  background-color: #ffc066;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  width: 10rem;
 }
 
-.mainItems{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
+.mainItems {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
-.item img{
-    max-width: 80px;
-    width: 100%;
-    min-width: 50px;
+.item img {
+  max-width: 80px;
+  width: 100%;
+  min-width: 50px;
 }
 
-.first img{
-    max-width:70px
+.first img {
+  max-width: 70px;
 }
 
-.second .item-content h3{
-    margin-top: 20px;
+.second .item-content h3 {
+  margin-top: 18px;
 }
 
-.item{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: ; */
-    align-items:center;
+.item {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border-left: 2px solid rgba(128, 128, 128, 0.377);
 }
 
-.item-content{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.item-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.item h3{
-    font-size: 1rem;
-    font-weight: 800;
-    margin: 0.6rem 0;
+.item h3 {
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 0.6rem 0;
+}
+
+.item p {
+  margin-left: 0.8rem;
+}
+
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 4rem;
+}
+
+.menu-button {
+  font-size: 1rem;
+  background-color: green;
+  color: #fff;
+  padding: 0.6rem;
+}
+
+.menu-section h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.grid-section {
+  width: 100%;
+  justify-content: center;
+  /* grid-template-columns: repeat(4, 1fr); */
+  display: grid;
+  grid-template-areas:
+            'grid-1 grid-1 grid-2 grid-3'
+            'grid-1 grid-1 grid-2 grid-7' 
+            'grid-4 grid-5 grid-6 grid-7';
+  
+  gap: 1em;
+}
+
+.grid-1 {
+  width: 100%;
+  height: 100%;
+  max-width: 585px;
+  grid-area : grid-1;
+}
+.grid-2 {
+  width: 100%;
+  height: 100%;
+  max-width: 276px;
+  grid-area : grid-2;
+}
+.grid-3 {
+  width: 100%;
+  max-width: 277px;
+  grid-area :grid-3;
+}
+.grid-4 {
+  width: 100%;
+  max-width: 277px;
+  grid-area :grid-4;
+}
+.grid-5 {
+  width: 100%;
+  max-width: 277px;
+  grid-area :grid-5;
+}
+.grid-6 {
+  width: 100%;
+  max-width: 278px;
+  grid-area :grid-6;
+}
+.grid-7 {
+  width: 100%;
+  height: 100%;
+  max-width: 277px;
+  grid-area :grid-7;
+  
 }
